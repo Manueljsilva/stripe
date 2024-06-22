@@ -1,0 +1,27 @@
+# Entorno virtual de Python
+venv/
+env/
+virtual/
+*.pyc
+__pycache__/
+
+# Configuraciones de Django
+*.sqlite3
+*.log
+media/
+staticfiles/
+
+# Archivos de configuración de entorno
+.env
+
+# Node modules y build de React
+node_modules/
+build/
+
+# Archivos específicos del IDE (Ejemplo para VSCode)
+.vscode/
+.idea/
+
+# Archivos de sistemas operativos
+.DS_Store
+Thumbs.db
