@@ -35,9 +35,3 @@ def get_game_info_api(id):
     except:
         return JsonResponse({"error": "Game not found"})
     
-
-
-
-#    <Elements stripe={stripePromise}>
-#       <CheckoutForm />
-#  </Elements>
